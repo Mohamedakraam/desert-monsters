@@ -1,0 +1,181 @@
+<input type="checkbox" id="check">
+<label for="check">
+
+    <img data-aos="fade-left" data-aos-duration="4010000" src="./assets/img/icons-04.png" alt="Rounded Image" id="btn">
+    <img src="./assets/img/icons-05.png" alt="Rounded Image" id="cancel">
+
+
+</label>
+
+<input type="checkbox" id="checkk">
+<label for="checkk">
+
+    <a id="bookbtn">Book Now</a>
+
+    <!-- <img data-aos="fade-left" data-aos-duration="4010000" src="./assets/img/icons-04.png" alt="Rounded Image" id="bookbtn"> -->
+
+
+</label>
+
+
+
+
+
+<div class="book">
+
+    <form>
+        <div class="form-group">
+            <input type="text" class=" textField form-control" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+            <input type="text" class=" textField form-control" placeholder="Phone No.">
+        </div>
+        <select class="form-select selectField" aria-label="Default select example">
+            <option selected>Choose your Room</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+
+        <select class="form-select selectField" aria-label="Default select example">
+            <option selected>Number Of people</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+
+        <button type="submit" class="btn-round bookBtn">Book Now</button>
+    </form>
+
+</div>
+
+
+
+
+<div [opened]="opened" class="fluid-container sidbar ">
+    <div class="row">
+        <div class=" sidbarPart1 col-sm">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Book Now</a></li><br><br><br>
+                <li><a href="#">We Care</a></li>
+                <li><a (click)="sub()" [routerLink]="['/aboutus']">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="copyRigth credits ml-auto">
+                <span class="copyright">
+                    © {{test | date: 'yyyy'}}, made with by Blend
+                </span>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="sidbarPart2  col-sm">
+
+            <input type="checkbox" id="animate">
+
+            <label for="animate">
+                <div id="title">
+                    <!-- <img src="./assets/img/icons-05.png" alt="Rounded Image" > -->
+                    <h3>Experiance</h3>
+
+                    <img src="./assets/img/+-02-02-02.png" alt="Rounded Image" id="show">
+                </div>
+            </label>
+            <ul class="exp-ul">
+                <li><a href="#">Spa</a></li>
+                <li><a href="#">Well-Being</a></li>
+                <li><a href="#">Dining</a></li>
+                <li><a href="#">Green Approach</a></li>
+                <li><a href="#">Couples</a></li>
+            </ul>
+        </div>
+
+
+        <div class=" sidbarPart3 col-sm">
+
+            <input type="checkbox" id="animatePart3">
+
+            <label for="animatePart3">
+                <div id="destinationtitle">
+                    <!-- <img src="./assets/img/icons-05.png" alt="Rounded Image" > -->
+                    <h3> Destinations</h3>
+
+                    <img src="./assets/img/+-02-02-02.png" alt="Rounded Image" id="show">
+                </div>
+            </label>
+
+            <ul class="destination-ul">
+                <li><a href="#">Hurghada </a></li>
+                <li><a href="#">Sharm El Sheikh </a></li>
+                <li><a href="#">Marsa Alam </a></li>
+
+            </ul>
+        </div>
+
+
+
+
+
+        <div class=" sidbarPart4 col-sm">
+            <input type="checkbox" id="animatePart4">
+
+            <label for="animatePart4">
+                <div id="offertitle">
+                    <!-- <img src="./assets/img/icons-05.png" alt="Rounded Image" > -->
+                    <h3>Offers</h3>
+
+                    <img src="./assets/img/+-02-02-02.png" alt="Rounded Image" id="show2">
+                </div>
+            </label>
+
+            <ul class="offer-ul">
+                <li><a href="#">Suite Sensation</a></li>
+                <li><a href="#">Couples Retreat</a></li>
+                <li><a href="#">Newly Weds</a></li>
+                <li><a href="#">Best Price Guarantee</a></li>
+                <li><a href="#">Family Blend</a></li>
+
+            </ul>
+        </div>
+
+        <div class="sidbarPart5 col-sm">
+
+            <input type="checkbox" id="animatePart5">
+
+            <label for="animatePart5">
+                <div id="mediatitle">
+                    <h3>Media</h3>
+
+                    <img src="./assets/img/+-02-02-02.png" alt="Rounded Image" id="show1">
+                </div>
+            </label>
+
+            <ul class="media-ul">
+                <li><a href="#">Gallary</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">News </a></li>
+                <li><a href="#">Portfolio</a></li>
+
+            </ul>
+        </div>
+
+
+
+
+
+    </div>
+</div>
+<div class="text" *ngIf="isHome()">
+    <p>FOR YOUR COMFORT AND PEACE OF MIND, ON-SITE FULLY RECOGNIZED COVID-19 PRC TESTS ARE AVAILABLE WITH GUARANTEED RESULTS WITHIN 24 HOURS.</p>
+</div>
+
+<div class="logo" *ngIf="isHome()">
+    <p class="card-text line type">The embodiment </p>
+    <p class="card-text type">of calm luxury.</p>
+
+    <!-- <p>FOR YOUR COMFORT AND PEACE OF MIND, ON-SITE FULLY RECOGNIZED COVID-19 PRC TESTS ARE AVAILABLE WITH GUARANTEED RESULTS WITHIN 24 HOURS.</p> -->
+</div>

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    color: #1A3240;
+}
+.line
+{
+   position: relative;
+   margin-bottom: 5px;   
+}
+.line:before{
+    
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 13px;
+    bottom: 0;
+    // left: ;
+    border-bottom: 1px solid #c3a07f;
+}
+.type{
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+     color: #476475;
+}
+
+
+.Distination_img{
+    width: 100%;
+    height: 600px !important;
+}
+
+
+.image{
+    width: 100%;
+    height: 50%;
+}
+
+
+.CardStyle
+{
+    padding-left: 5%;
+    cursor: pointer;
+    background-color: rgb(241, 240, 240) !important;
+    transition: all 1s ease;
+}
+
+.CardStyle:hover{
+    background-color: rgba(148, 144, 144, 0.842) !important;
+}
+
+.unique{
+    position: absolute;
+    left: 30%;
+    top: 74.6%;
+}
+
+
+
+
+
+.true{
+    margin: 7%;
+    
+}
+.true p {
+    font-size: 35px;
+}
+
+.btn-color{
+    background-color: #c3a07f !important;
+}
+.btn-seeMore{
+    color:#c3a07f !important ;
+}
+
+.section-color{
+    margin-top: 2%;
+    background-color:#ffffff !important;
+    width: 100% !important ;
+    height: 700px !important;
+    
+}
+.section-bg{
+    margin-top: 2%;
+    background-color:rgba(223, 217, 217, 0.589) !important;
+    border-radius: 2cm;
+    width: 100% !important ;
+}
+
+.pb-5{
+    padding-top: 5%;
+}
+.cc{
+    background-color: white ;
+}
+.slogan
+{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 4%;
+}
+.slogan img{
+    width: 40%;
+    height: 10%;
+    margin-left: 30%;
+}
+.mmm{
+    transition: all 10s;
+}

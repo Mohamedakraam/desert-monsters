@@ -1,0 +1,517 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sweet Child&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+
+*{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+}
+
+h3{
+        position: absolute;
+        cursor: pointer;
+        text-align: center;
+        margin-left: 15%;
+        z-index: 1111;
+        color: #11212b;
+        font-family: 'ogg';
+}
+
+
+
+
+ul li:hover a{
+        margin-left: 5% ;
+}
+ .text{
+         position:absolute;
+        z-index: 11;
+        color: #c3a07f ;
+        width: 15%;
+        left: 3%;
+        top: 20%;
+        font-size: 35px;   
+ }
+
+ .logo{
+        position:absolute;
+       z-index: 11;
+       width: 20%;
+       left: 3%;
+       top: 50%; 
+}
+.type{
+        font-family: 'Cookie', cursive;
+        font-size: 40px;
+        color: #476475 ;
+}
+
+.line
+{
+   position: relative;
+   margin-bottom: 5px;
+   
+}
+.line:before{
+    
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 13px;
+    bottom: 0;
+    // left: ;
+    border-bottom: 1px solid #c3a07f;
+}
+
+
+
+// side navbar
+.sidbar{
+        position: fixed;
+         left: 100%;
+         width: 100%;
+        height: 110%;
+        background-color:rgba(198, 207, 212, 0.836) !important;
+        z-index: 20;
+        transition: all .7s;
+        margin-top: -2%;
+}
+
+.sidbar ul a{
+        display: block;
+        height: 100%;
+        width: 100%;
+        line-height: 50px;
+        font-family: "Helvetica", Arial, sans-serif;
+        color: #11212b;
+        padding-left: 30%;
+        margin-top: 1%;
+        box-sizing: border-box;
+        transition: .4s;
+        white-space:nowrap;
+        
+}
+// // // 
+
+
+// part 1
+.sidbarPart1{
+       
+        padding-top: 5%;
+        background-color: #BCBEC0;
+        height: 900px;
+        left: 100%;
+        transition: all 1.5s;
+        
+ 
+}
+.vas{
+      display: none;
+}
+
+.sidbarPart1 ul a{
+        display: block;
+        height: 100%;
+        width: 100%;
+        line-height: 50px;
+        font-size: 16px;
+        font-family: "Helvetica", Arial, sans-serif;
+        color: #F1F2F2 !important;
+        padding-left: 30%;
+        margin-top: 1%;
+        box-sizing: border-box;
+        transition: .4s;
+        white-space:nowrap; 
+        
+}
+
+
+
+// // // 
+
+
+// part 2
+.sidbarPart2{
+        padding-top: 3%;
+        background-color: #F1F2F2;
+        left: 100%;
+        transition: all 2s;
+       
+}
+.exp-ul{
+        position: relative;
+        top: 100% ;
+        transition: all 1s ease-in-out;
+}
+// // // 
+
+// part 3
+.sidbarPart3{
+        padding-top: 3%;
+        background-color: #F1F2F2;
+        left: 100%;
+        transition: all 2.5s;
+     
+}
+
+.media-ul{
+        position: relative;
+        top: 100% ;
+        transition: all 1s ease-in-out;
+}
+
+// // // 
+
+// part 4
+.sidbarPart4{
+        padding-top: 3%;
+        background-color: #F1F2F2;
+        left: 100%;     
+        transition: all 3s;
+     
+}
+
+.offer-ul{
+        position: relative;
+        top: 100% ;
+        transition: all 1s ease-in-out;
+}
+
+// // // 
+
+// part 5
+.sidbarPart5{
+        padding-top: 3%;
+        background-color: #F1F2F2;
+        left: 100%;     
+        transition: all 3.5s;
+     
+}
+.destination-ul{
+        position: relative;
+        top: 100% ;
+        transition: all 1s ease-in-out;
+}
+
+// // // 
+
+
+
+// titles of nav
+#title{
+        position:absolute;
+        top: 40%;
+        cursor: pointer;
+        transition: all .5s ease-in-out ;
+        
+}
+#title:hover  {
+        transform: scale(1.2);
+ }
+#mediatitle{
+        position:absolute;
+        top: 40%;
+        cursor: pointer;
+        transition: all .5s ease-in-out ;
+}
+#mediatitle:hover  {
+        transform: scale(1.2);
+ }
+#offertitle{
+        position:absolute;
+        top: 40%;
+        cursor: pointer;
+        transition: all .5s ease-in-out ;
+}
+#offertitle:hover  {
+        transform: scale(1.2);
+ }
+#destinationtitle{
+        position:absolute;
+        top: 40%;
+        cursor: pointer;
+        transition: all .5s ease-in-out ;
+}
+#destinationtitle:hover  {
+       transform: scale(1.2);
+}
+// // // 
+
+
+
+// checkboxs css
+#check{
+        display: none;
+}
+#checkk{
+        display: none;
+}
+#Bookcheck{
+        display: none;
+}
+
+#animate{
+        display: none;
+}
+#animatePart3{
+        display: none;
+}
+#animatePart3{
+        display: none;
+}
+#animatePart4{
+        display: none;
+}
+#animatePart5{
+        display: none;
+}
+#animateAllLinks{
+        display: none;
+}
+// // 
+
+
+// plus icon in nav
+label #show{
+        margin-top: 2%;
+        margin-left: 80%;
+        z-index: 1111;
+        width: 8%;
+}
+
+label #show1{
+        margin-top: 2%;
+        margin-left: 55%;
+        z-index: 1111;
+        width: 8%;
+}
+label #show2{
+        margin-top: 2%;
+        margin-left: 65%;
+        z-index: 1111;
+        width: 8%;
+}
+// // // 
+
+
+
+// experiance animattion in nav
+#animate:checked ~ label #title {
+        top: 15%;
+}
+
+#animate:checked ~ .exp-ul {
+        top: 15%;
+}
+// // // // 
+
+
+// media animattion in nav
+
+#animatePart5:checked ~ .media-ul {
+        top: 15%;
+}
+#animatePart5:checked ~ label #mediatitle  {
+        top: 15%;
+}
+
+// // // // 
+
+
+
+// offer animattion in nav
+
+#animatePart4:checked ~ .offer-ul {
+        top: 15%;
+}
+#animatePart4:checked ~ label #offertitle  {
+        top: 15%;
+}
+
+// // // // 
+
+
+// destination animattion in nav
+
+#animatePart3:checked ~ .destination-ul {
+        top: 15%;
+}
+#animatePart3:checked ~ label #destinationtitle  {
+        top: 15%;
+}
+
+// // // // 
+
+
+
+// animation of side navbar
+#check:checked ~ .sidbar {
+        left: 0;
+}
+
+#check:checked ~ .sidbar .sidbarPart1   {
+       left: 0;
+}
+#check:checked ~  .sidbar .sidbarPart2  {
+        left: 0;
+ }
+ #check:checked ~  .sidbar .sidbarPart3  {
+        left: 0;
+ }
+ #check:checked ~  .sidbar .sidbarPart4  {
+        left: 0;
+ }
+
+ #check:checked ~  .sidbar .sidbarPart5  {
+        left: 0;
+ }
+// // // // // // 
+
+
+
+
+
+
+
+
+
+// menu and cancel icon
+label #btn ,label #cancel {
+        position: absolute;
+        cursor: pointer;
+        margin-top: -2%;
+}
+
+label #btn  {
+        z-index: 1111;
+        width: 5%;
+        height: 5%;
+        left: 1%;
+        font-size: 35px;
+        margin-top: 1%;
+        transition: all .7s;
+}
+
+
+label #cancel{
+        position: fixed;
+        z-index: 1111;
+        width: 2%;
+        height: 3%;
+        left: -200%;
+        font-size: 40px;
+        margin-top: 1%;
+       margin-left: 1%;
+       transition: all .7s ease;
+       
+}
+
+
+label #bookbtn  {
+        position: fixed;
+        z-index: 1111;
+        width: 6%;
+        height: 5%;
+        top: 50%;
+        right: 0;
+        font-size: 15px;
+        background-color: #2f404b !important ;
+        border: 1px solid #c3a07f ;
+        color: #c3a07f !important; 
+        padding: 4px;
+        border-radius: 10px;
+        transition: all 1s;
+}
+label #bookbtn:hover{
+        cursor: pointer;
+} 
+
+
+
+
+
+#check:checked ~ label #btn{
+        left: 20%;
+        opacity: 0;
+        // pointer-events:none;
+}
+
+#check:checked ~ label #cancel{
+        left: 1%;
+}
+
+#checkk:checked ~ label #bookbtn{
+        right: 20%;
+       
+        
+}
+// // // 
+
+#checkk:checked ~ .book{
+        right: 0;
+}
+
+
+
+
+
+.book{
+        width: 20%;
+        height: 60%;
+        background-color: #1e2e38 ;
+        position:fixed;
+        top: 20%;
+        right: -50%;
+        z-index: 1000;
+        padding: 3%;
+        padding-top: 5%;
+        border-radius: 3%;
+        transition: 1s;
+}
+ 
+.textField{
+        background-color: #1e2e38 ;
+        border: 1px solid #c3a07f ;
+        color: #c3a07f ;
+        padding-left: 3%;
+        margin-bottom: 5%;
+}
+.selectField{
+        background-color: #1e2e38 ;
+        border: 1px solid #c3a07f ;
+        color: #c3a07f ;
+        padding-left: 3%;
+        padding: 5%;
+        margin-bottom: 5%;
+}
+
+.selectField:hover{
+        cursor: pointer;
+}
+
+.bookBtn{
+        background-color: #2f404b !important ;
+        border: 1px solid #c3a07f ;
+        color: #c3a07f !important;
+        padding: 3%;
+        margin-left: 28%;
+        transition: 1s;
+}
+
+.bookBtn:hover{
+       
+        background-color: #364f5e !important;
+
+        
+}
+
+
+
+.copyRigth{
+        margin-top: 60% !important;
+        text-align: center;
+}
+
